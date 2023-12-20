@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url(./abs-1850926_1280.jpg);
+
+}
+.left {
+    
+    display: inline-block;
+    /*border: 2px solid red;*/
+    position: absolute;
+    left: 34px;
+    top: 20px;
+}
+.left img{
+    width: 110px;
+    top: 50px;
+    filter: invert(100%);
+}
+.left div{
+    text-align: center;
+}
+.mid{
+    display: block;
+    width: 50%;
+    margin: 20px auto;
+    /*border: 2px solid green;*/
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+    /*border: 2px solid yellow;*/
+}
+.btn {
+    margin: 4px 8px;
+    background-color: black;
+    color: rgb(252, 249, 249);
+    padding: 3px 5px;
+    border:2px solid grey ;
+    border-radius: 10px; 
+    font-size: 15px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(41, 38, 38);
+}
+.navbar {
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 25px;
+    }
+    
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 20px 20px ;
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: grey;
+}
+.container{
+    position: relative;
+    border: 2px solid white;
+    margin: 90px 90px;
+    left: 100vh;
+    padding: 75px ;
+    width: 40%;
+    border-radius:20px ;
+}
+.from-group input{
+    text-align: center;
+    display: block;
+    width: 300px;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 8px;
+
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    display: block;
+    width: 300px;
+    margin: 20px auto;
+}
